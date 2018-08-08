@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>MyNewProject</title>
-  <base href="/HistoryWorld/">
+  <base href="HistoryWorld">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -12,6 +12,20 @@
 
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.8651b8ab882e036b3bab.js"></script></body>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.bfb02e54dff6fedb2a34.js"></script></body>
+
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAHWNq1jCURgA4cJt62zWyZdXARx-qSdfI",
+    authDomain: "history-world.firebaseapp.com",
+    databaseURL: "https://history-world.firebaseio.com",
+    projectId: "history-world",
+    storageBucket: "history-world.appspot.com",
+    messagingSenderId: "853634216040"
+  };
+  firebase.initializeApp(config);
+</script>
 
 </html>
