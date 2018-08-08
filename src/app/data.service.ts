@@ -1,9 +1,7 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
+import {} from "rxjs/BehaviorSubject";
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class DataService {
-
-  constructor() { }
+  constructor() {}
 }
